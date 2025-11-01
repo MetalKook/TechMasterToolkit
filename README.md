@@ -16,7 +16,6 @@ This repository contains a PowerShell toolkit for Windows system maintenance and
 2. Extract the folder to a safe location.  
 3. Double-click `launcher.bat`.  
    - This will open PowerShell with Administrator rights and display the toolkit menu.
-4. irm "https://github.com/YourUsername/TechMasterToolkit/raw/main/Tech_Master_Toolkit_v1.ps1" | iex
 ## Included Commands & Functions
 1. `sfc /scannow` — System File Checker: scans and repairs corrupted system files.  
 2. `chkdsk C: /f` — Check disk for errors and fix them.  
