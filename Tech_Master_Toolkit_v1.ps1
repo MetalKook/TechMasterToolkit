@@ -1,7 +1,7 @@
 <#
 Tech_Master_Toolkit_v1.ps1
 Descripción: Script maestro seguro y modular con las utilidades que proporcionaste.
-Autor: (tu canal)
+Autor: (Technologi)
 INSTRUCCIONES IMPORTANTES:
  - Guardar como Tech_Master_Toolkit_v1.ps1
  - Ejecutar PowerShell como Administrador (click derecho -> Ejecutar como administrador)
@@ -346,3 +346,4 @@ do {
 Stop-Transcript
 Write-Host "Transcript y logs guardados en: $logDir" -ForegroundColor Green
 Write-Host "FIN - Tech Master Toolkit v1" -ForegroundColor Green
+
