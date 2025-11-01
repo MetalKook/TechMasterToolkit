@@ -19,3 +19,31 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## 2️⃣ launcher.bat listo
+
+```bat
+@echo off
+:: =============================================
+:: Tech Master Toolkit - Launcher BAT
+:: Author: YourName
+:: Purpose: Run the master PowerShell script with one click
+:: =============================================
+
+set SCRIPT_NAME=Tech_Master_Toolkit_v1.ps1
+
+:: Check if the PS1 script exists
+if not exist "%~dp0%SCRIPT_NAME%" (
+    echo ERROR: Script "%SCRIPT_NAME%" not found in this folder.
+    pause
+    exit /b
+)
+
+:: Run PowerShell as Administrator with bypass policy
+powershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File ""%~dp0%SCRIPT_NAME%""' -Verb RunAs"
+
+echo.
+echo Tech Master Toolkit has started in PowerShell.
+pause
