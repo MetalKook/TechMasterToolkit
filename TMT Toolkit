@@ -1,0 +1,2 @@
+# Run Tech Master Toolkit directly from GitHub
+irm "https://github.com/YourUsername/TechMasterToolkit/raw/main/Tech_Master_Toolkit_v1.ps1" | iex
