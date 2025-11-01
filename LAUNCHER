@@ -1,1 +1,1 @@
-irm "https://github.com/YourUsername/TechMasterToolkit/raw/main/Tech_Master_Toolkit_v1.ps1" | iex
+irm "https://github.com/MetalKook/TechMasterToolkit/raw/main/Tech_Master_Toolkit_v1.ps1" | iex
