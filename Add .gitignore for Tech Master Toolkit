@@ -1,0 +1,14 @@
+# Windows system files
+Thumbs.db
+Desktop.ini
+*.log
+*.bak
+*.tmp
+
+# PowerShell temporary files
+*.ps1xml
+*.psm1
+*.cache
+
+# Recycle Bin folder
+$RECYCLE.BIN/
