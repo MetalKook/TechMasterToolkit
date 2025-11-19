@@ -1,0 +1,24 @@
+# Core Dependencies
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Video and Audio Processing
+moviepy>=1.0.3
+pillow>=10.0.0
+pydub>=0.25.1
+gtts>=2.5.0
+
+# YouTube API
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+google-api-python-client>=2.100.0
+
+# Image Processing and Thumbnails
+requests>=2.31.0
+numpy>=1.24.0
+
+# Utilities
+python-slugify>=8.0.0
+colorama>=0.4.6
+tqdm>=4.66.0
